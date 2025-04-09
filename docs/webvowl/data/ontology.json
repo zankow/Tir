@@ -1,0 +1,1752 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.semanticweb.org/javi/ontologies/2025/3/tir", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "comments" : {
+      "en" : "Ontology on smart tourism and recommendations"
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#Bus",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bus",
+      "en" : "Bus"
+    },
+    "comment" : {
+      "en" : "A vehicle for transporting passengers along fixed routes and with pre-established schedules, designed for general use and accessible to anyone for a fee."
+    },
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#Hotel",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hotel",
+      "en" : "Hotel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#culturalEvent31",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "labels" : {
+        "IRI-based" : "culturalEvent31"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#monument74",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Royal_Palace_of_Madrid",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "monument74"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#italianRestaurant85",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Italian_cuisine",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "italianRestaurant85"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#city03",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Madrid",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "city03"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#publicBike82",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "labels" : {
+        "IRI-based" : "publicBike82"
+      }
+    } ],
+    "subClasses" : [ "12", "13", "14", "15", "16" ],
+    "comment" : {
+      "en" : "Building planned and equipped to provide accommodation services to people."
+    },
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#GastronomicEvent",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GastronomicEvent",
+      "en" : "Gastronomic event"
+    },
+    "comment" : {
+      "en" : "Meeting or event where food and drinks are offered to guests."
+    },
+    "id" : "24",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#MexicanRestaurant",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MexicanRestaurant",
+      "en" : "Mexican restaurant"
+    },
+    "comment" : {
+      "en" : "A public establishment where food and drinks are served, for a fee, to be consumed on the premises. It offers dishes based on traditional and regional Mexican cuisine, characterized by ingredients such as corn, beans, chili, and a wide variety of sauces and spices."
+    },
+    "id" : "25",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#AndalusianRestaurant",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AndalusianRestaurant",
+      "en" : "Andalusian restaurant"
+    },
+    "comment" : {
+      "en" : "A public establishment where food and drinks, typically traditional Andalusian cuisine, are served on-site, with the aim of offering a culinary experience based on hospitality and the flavors of the region."
+    },
+    "id" : "27",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "28",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "29",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#Event",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event",
+      "en" : "Event"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#monument74",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Royal_Palace_of_Madrid",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "monument74"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#italianRestaurant85",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Italian_cuisine",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "italianRestaurant85"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#city03",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Madrid",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "city03"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#publicBike82",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "labels" : {
+        "IRI-based" : "publicBike82"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#luxuryHotel68",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "labels" : {
+        "IRI-based" : "luxuryHotel68"
+      }
+    } ],
+    "subClasses" : [ "20", "18", "1", "32", "24" ],
+    "comment" : {
+      "en" : "An important and scheduled social gathering."
+    },
+    "id" : "2"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#CulturalAttraction",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulturalAttraction",
+      "en" : "Cultural attraction"
+    },
+    "comment" : {
+      "en" : "Material and intangible elements that represent the culture of a place, which attract tourists."
+    },
+    "id" : "41",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#ItalianRestaurant",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ItalianRestaurant",
+      "en" : "Italian restaurant"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#italianRestaurant85",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Italian_cuisine",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "italianRestaurant85"
+      }
+    } ],
+    "comment" : {
+      "en" : "An establishment that offers food and drinks to its customers, generally focusing on Italian cuisine, characterized by dishes such as pasta, pizza, risotto, meats, and desserts, using fresh, quality ingredients."
+    },
+    "id" : "42",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "37",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#Tram",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tram",
+      "en" : "Tram"
+    },
+    "comment" : {
+      "en" : "A vehicle that runs on rails within or near a city and is used to transport passengers."
+    },
+    "id" : "44",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "48",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#CulturalEvent",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulturalEvent",
+      "en" : "Cultural event"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#culturalEvent31",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "labels" : {
+        "IRI-based" : "culturalEvent31"
+      }
+    } ],
+    "comment" : {
+      "en" : "An organized activity that seeks to promote, celebrate, and disseminate aspects of culture, with the goal of fostering interaction, learning, and connection between people."
+    },
+    "id" : "32",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "5",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "50",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#Taxi",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Taxi",
+      "en" : "Taxi"
+    },
+    "comment" : {
+      "en" : "A vehicle with a driver that provides passenger transportation services, in which the user pays a fee to the driver in exchange for the transportation service provided."
+    },
+    "id" : "51",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#MediterraneanRestaurant",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MediterraneanRestaurant",
+      "en" : "Mediterranean restaurant"
+    },
+    "comment" : {
+      "en" : "Public establishment where food and drinks are served, for a fee, to be consumed on the premises, offering dishes based on the Mediterranean diet, characterized by the use of fresh ingredients such as olive oil, vegetables, legumes, fish and seafood, typical of the countries bordering the Mediterranean Sea."
+    },
+    "id" : "57",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#Museum",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Museum",
+      "en" : "Museum"
+    },
+    "comment" : {
+      "en" : "An institution, generally non-profit and open to the public, that researches, collects, preserves, interprets, and exhibits tangible and intangible heritage, promoting diversity and sustainability."
+    },
+    "id" : "59",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#PublicTransport",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PublicTransport",
+      "en" : "Public transport"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#culturalEvent31",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "labels" : {
+        "IRI-based" : "culturalEvent31"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#monument74",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Royal_Palace_of_Madrid",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "monument74"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#italianRestaurant85",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Italian_cuisine",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "italianRestaurant85"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#city03",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Madrid",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "city03"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#publicBike82",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "labels" : {
+        "IRI-based" : "publicBike82"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#luxuryHotel68",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "labels" : {
+        "IRI-based" : "luxuryHotel68"
+      }
+    } ],
+    "subClasses" : [ "51", "44", "6", "60", "61" ],
+    "comment" : {
+      "en" : "A comprehensive system of transportation, used by the general public, that seeks to satisfy people's mobility needs, unlike private transportation, where the user owns and controls the vehicle."
+    },
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#Subway",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Subway",
+      "en" : "Subway"
+    },
+    "comment" : {
+      "en" : "A rail system operating primarily in urban and suburban areas, designed to transport large numbers of passengers quickly and efficiently, via railway tracks segregated from vehicular traffic."
+    },
+    "id" : "60",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#Beach",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Beach",
+      "en" : "Beach"
+    },
+    "comment" : {
+      "en" : "Bank of the sea or a large river, formed by sandy beaches on an almost flat surface."
+    },
+    "id" : "69",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#LuxuryHotel",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LuxuryHotel",
+      "en" : "Luxury Hotel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#luxuryHotel68",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "labels" : {
+        "IRI-based" : "luxuryHotel68"
+      }
+    } ],
+    "comment" : {
+      "en" : "A building planned and designed to provide accommodation services to people, providing a luxury accommodation experience for the guest."
+    },
+    "id" : "13",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#MusicalEvent",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MusicalEvent",
+      "en" : "Musical event"
+    },
+    "comment" : {
+      "en" : "A gathering or event that brings people together to enjoy live music, which can range from a small concert to a large international festival, with the goal of entertaining, celebrating, or creating shared experiences."
+    },
+    "id" : "18",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#BeachHotel",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BeachHotel",
+      "en" : "Beach Hotel"
+    },
+    "comment" : {
+      "en" : "Building planned and equipped to provide accommodation services to people, which is located near a beach."
+    },
+    "id" : "12",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#Park",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Park",
+      "en" : "Park"
+    },
+    "comment" : {
+      "en" : "A facility designed for the leisure, entertainment, and often recreation of visitors, with attractions, facilities, and activities organized around a central theme or concept."
+    },
+    "id" : "71",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#TouristHotel",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TouristHotel",
+      "en" : "Tourist Hotel"
+    },
+    "comment" : {
+      "en" : "Building planned and equipped to provide accommodation and food services to people"
+    },
+    "id" : "15",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#GeoCoordinates",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GeoCoordinates",
+      "en" : "Geographic coordinates"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#coordCity03",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "labels" : {
+        "IRI-based" : "coordCity03"
+      }
+    } ],
+    "comment" : {
+      "en" : "Reference system that allows each location on Earth to be identified by a pair of numbers that represent latitude and longitude"
+    },
+    "id" : "39"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#BusinessHotel",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BusinessHotel",
+      "en" : "Business Hotel"
+    },
+    "comment" : {
+      "en" : "A building designed and equipped to provide accommodation services for people, focusing on the needs of business travelers, offering services such as meeting rooms, high-speed internet, and business centers to facilitate productivity."
+    },
+    "id" : "16",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#SportEvent",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SportEvent",
+      "en" : "Sport event"
+    },
+    "comment" : {
+      "en" : "An organized activity that involves physical or mental competition among participants. It can range from small local tournaments to international championships, and aims to promote values ​​such as teamwork and personal improvement."
+    },
+    "id" : "20",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#TechnologyEvent",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TechnologyEvent",
+      "en" : "Technology event"
+    },
+    "comment" : {
+      "en" : "Meetings, conferences, trade shows, or congresses, among other formats, where advances, innovations, and developments in technology are presented and discussed, with the aim of promoting knowledge exchange, networking, and innovation."
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#PublicBike",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PublicBike",
+      "en" : "Public bike"
+    },
+    "comment" : {
+      "en" : "A transportation service that makes bicycles available to the public for temporary use, usually in urban settings, allowing users to pick up a bicycle at one location and return it at another."
+    },
+    "id" : "61",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "103",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "78",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "90",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "105",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "92",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "106",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "97",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "101",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "10",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#Monument",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Monument",
+      "en" : "Monument"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#monument74",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Royal_Palace_of_Madrid",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "monument74"
+      }
+    } ],
+    "comment" : {
+      "en" : "A building, work of art, or site that has significant historical, artistic, cultural, or scientific value, attracts tourists, and is considered part of a place's cultural heritage."
+    },
+    "id" : "64",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#Restaurant",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Restaurant",
+      "en" : "Restaurant"
+    },
+    "subClasses" : [ "57", "76", "25", "27", "42" ],
+    "comment" : {
+      "en" : "A public establishment where food and drinks are served, for a fee, to be consumed on the premises."
+    },
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#RuralHotel",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RuralHotel",
+      "en" : "Rural Hotel"
+    },
+    "comment" : {
+      "en" : "A building planned and equipped to provide accommodation services to people, located in a rural setting and usually offering complementary services, such as restaurants, activities, or excursions."
+    },
+    "id" : "14",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#TouristAttraction",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TouristAttraction",
+      "en" : "Tourist attraction"
+    },
+    "subClasses" : [ "59", "71", "69", "64", "41" ],
+    "comment" : {
+      "en" : "Any place, event, or activity that attracts people for its cultural, historical, recreational, or natural value, contributing to the development of tourism."
+    },
+    "id" : "36"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#JapaneseRestaurant",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "JapaneseRestaurant",
+      "en" : "Japanese restaurant"
+    },
+    "comment" : {
+      "en" : "Establishment specializing in Japanese cuisine, offering dishes such as sushi, ramen, tempura, yakitori, and others, with an emphasis on fresh ingredients, careful presentation, and natural flavors."
+    },
+    "id" : "76",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#City",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "City",
+      "en" : "City"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#culturalEvent31",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "labels" : {
+        "IRI-based" : "culturalEvent31"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#monument74",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Royal_Palace_of_Madrid",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "monument74"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#italianRestaurant85",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Italian_cuisine",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "italianRestaurant85"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#city03",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Madrid",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "city03"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#publicBike82",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "labels" : {
+        "IRI-based" : "publicBike82"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#luxuryHotel68",
+      "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+      "labels" : {
+        "IRI-based" : "luxuryHotel68"
+      }
+    } ],
+    "comment" : {
+      "en" : "Class representing a human settlement of considerable size."
+    },
+    "id" : "9"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "107",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "108",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "109",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#restIdentifier",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "restIdentifier",
+      "undefined" : "restIdentifier"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Unique restaurant identifier"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#cityName",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "cityName",
+      "undefined" : "cityName"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "name of each city"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "8"
+  }, {
+    "range" : "2",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "17"
+  }, {
+    "range" : "2",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "19"
+  }, {
+    "range" : "11",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "21"
+  }, {
+    "range" : "11",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "22"
+  }, {
+    "range" : "11",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "23"
+  }, {
+    "range" : "11",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "26"
+  }, {
+    "range" : "11",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#starRating",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "starRating",
+      "undefined" : "starRating"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "star rating of each hotel"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#tourIdentifier",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "tourIdentifier",
+      "undefined" : "tourIdentifier"
+    },
+    "domain" : "36",
+    "comment" : {
+      "undefined" : "Unique identifier for each of the city's tours"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#longitude",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "longitude",
+      "undefined" : "longitude"
+    },
+    "domain" : "39",
+    "comment" : {
+      "undefined" : "longitude of the location"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#hasGeoCoordinates",
+    "inverse" : "53",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "hasGeoCoordinates",
+      "undefined" : "hasGeoCoordinates"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "has geographic coordinates"
+    },
+    "attributes" : [ "object" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#tourName",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "tourName",
+      "undefined" : "tourName"
+    },
+    "domain" : "36",
+    "comment" : {
+      "undefined" : "Name of each of the tours"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#restName",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "restName",
+      "undefined" : "restName"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Name of the restaurants"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#startDate",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "startDate",
+      "undefined" : "starDate"
+    },
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "evaluation of events"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#pricePerNight",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "pricePerNight",
+      "undefined" : "pricePerNight"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Hotel price per night"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "58"
+  }, {
+    "range" : "36",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "62"
+  }, {
+    "range" : "36",
+    "domain" : "64",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#transName",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "transName",
+      "undefined" : "transName"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Name of each public transport in the city"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#isGeoCoordinatesOf",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "isGeoCoordinatesOf",
+      "undefined" : "isGeoCoordinatesOf"
+    },
+    "domain" : "39",
+    "comment" : {
+      "undefined" : "are geographic coordinates of"
+    },
+    "attributes" : [ "object" ],
+    "id" : "53"
+  }, {
+    "range" : "36",
+    "domain" : "59",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "66"
+  }, {
+    "range" : "4",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "67"
+  }, {
+    "range" : "36",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "68"
+  }, {
+    "range" : "36",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "70"
+  }, {
+    "range" : "4",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "72"
+  }, {
+    "range" : "4",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#eventLocatedIn",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "eventLocatedIn",
+      "undefined" : "eventLocatedIn"
+    },
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "in which city is it located"
+    },
+    "attributes" : [ "object" ],
+    "id" : "74"
+  }, {
+    "range" : "4",
+    "domain" : "76",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#eventName",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "78",
+    "label" : {
+      "IRI-based" : "eventName",
+      "undefined" : "eventName"
+    },
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "Name of each of the events"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "77"
+  }, {
+    "range" : "7",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "79"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "80"
+  }, {
+    "range" : "4",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "81"
+  }, {
+    "range" : "7",
+    "domain" : "61",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "82"
+  }, {
+    "range" : "2",
+    "domain" : "24",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "83"
+  }, {
+    "range" : "2",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "84"
+  }, {
+    "range" : "7",
+    "domain" : "44",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#restLocatedIn",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "restLocatedIn",
+      "undefined" : "restLocatedIn"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "in which city is it located"
+    },
+    "attributes" : [ "object" ],
+    "id" : "86"
+  }, {
+    "range" : "7",
+    "domain" : "51",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#transAveragePrice",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "transAveragePrice",
+      "undefined" : "transAveragePrice"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Average price of public transport in the city"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#hotelIdentifier",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "hotelIdentifier",
+      "undefined" : "hotelIdentifier"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Unique identifier of the hotels"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#hotelRatingValue",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "92",
+    "label" : {
+      "IRI-based" : "hotelRatingValue",
+      "undefined" : "hotelRatingValue"
+    },
+    "minCardinality" : "1",
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Average rating of each hotel"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#tourLocatedIn",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "tourLocatedIn",
+      "undefined" : "tourLocatedIn"
+    },
+    "domain" : "36",
+    "comment" : {
+      "undefined" : "in which city is it located"
+    },
+    "attributes" : [ "object" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#transLocatedIn",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "transLocatedIn",
+      "undefined" : "transLocatedIn"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "in which city is it located"
+    },
+    "attributes" : [ "object" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#restAveragePrice",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "restAveragePrice",
+      "undefined" : "restAveragePrice"
+    },
+    "cardinality" : "1",
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Average restaurant bill price"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#legalName",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "97",
+    "label" : {
+      "IRI-based" : "legalName",
+      "undefined" : "legalName"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Legal name"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#restRatingValue",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "restRatingValue",
+      "undefined" : "restRatingValue"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Average rating of each restaurant"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#tourRatingValue",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "tourRatingValue",
+      "undefined" : "tourRatingValue"
+    },
+    "domain" : "36",
+    "comment" : {
+      "undefined" : "Average rating of each tour in the city"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#cityIdentifier",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "cityIdentifier",
+      "undefined" : "cityIdentifier"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Unique city identifier"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#eventIdentifier",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "103",
+    "label" : {
+      "IRI-based" : "eventIdentifier",
+      "undefined" : "eventIdentifier"
+    },
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "Unique identifier of each event"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#hotelLocatedIn",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hotelLocatedIn",
+      "undefined" : "hotelLocatedIn"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "in which city is it located"
+    },
+    "attributes" : [ "object" ],
+    "id" : "104"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#hotelName",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "hotelName",
+      "undefined" : "hotelName"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Name of the hotels"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "107"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#transIdentifier",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "transIdentifier",
+      "undefined" : "transIdentifier"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Unique identifier of public transport in each city"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "108"
+  }, {
+    "iri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir#latitude",
+    "baseIri" : "http://www.semanticweb.org/javi/ontologies/2025/3/tir",
+    "range" : "106",
+    "label" : {
+      "IRI-based" : "latitude",
+      "undefined" : "latitude"
+    },
+    "domain" : "39",
+    "comment" : {
+      "undefined" : "latitude of the location"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "109"
+  } ]
+}
